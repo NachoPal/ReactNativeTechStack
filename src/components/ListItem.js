@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
+import { Text } from 'react-native'
 import { CardSection } from './common';
-import { Text } from 'react-native';
+
 
 class ListItem extends Component {
   render() {
-    console.log('Llego');
     const { titleStyle } = styles;
     return(
       <CardSection>
